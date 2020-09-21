@@ -21,6 +21,8 @@ public class CreateDepotAccount {
 	@FindBy(xpath = "//span[text()='Create an Account']")
 	WebElement CreateAccountButton;
 	private WebDriver driver;
+
+	//Testing changes made in HomeDepotTest for github
 	
 public CreateDepotAccount(WebDriver driver) {
 	this.driver = driver;
